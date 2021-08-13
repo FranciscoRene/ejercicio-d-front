@@ -1,0 +1,25 @@
+<app-navegacion class="area-navegacion"></app-navegacion>
+
+<div class="area-contenido">
+    <app-navbar class="area-navbar"></app-navbar>
+
+    <div class="cabecera-reporte">
+        <img class="icono-reporte" src="/assets/Grupo 499.png">
+        <h1 class="label-reportes">Reportes</h1>
+    </div>
+
+    <div class="contenedor-categorias">
+        <h1 class="titulo-categoria">Categorías</h1>
+        <div class="contenedor-listado-categorias">
+            <ng-container *ngFor="let categoria of categorias; let i = index">
+                <img class="icono" src="{{'/assets/' + categoria.getIconoMostrado() + '.png'}}" 
+                (click) = "seleccionarCategoria(categoria)">
+            </ng-container>
+        </div>
+    </div>
+
+    <div class="contenedor-categoria-detalle">
+        <h1 class="titulo-categoria-detalle">{{ tituloDetalleMostrado}}</h1>
+    </div>
+
+</div>
