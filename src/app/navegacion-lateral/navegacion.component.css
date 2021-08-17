@@ -1,27 +1,42 @@
 .contenedor-navegacion {
-    position: relative;
     top: 0px;
     left: 0px;
     width: 306px;
     height: 768px;
     background: #1B0088 0% 0% no-repeat padding-box;
-    opacity: 1;
     border-bottom: 2px solid #ED1650;
 }
 
-.titulo {
-    position: absolute;
-    left: 39px;
-    top: 51px;
-    left: 39px;
-    width: 231px;
-    height: 37px;
-    text-align: left;
-    font: normal normal bold 31px/38px Helvetica Neue;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
+.imagen-persona {
+    width: 40px;
+    height: 40px;
+    float: left;
 }
+
+.nombre-persona {
+    text-align: left;
+    font: normal normal normal 14px/16px Arial;
+    color: #FFFFFF;
+}
+
+h1 {
+    text-align: center;
+    font: normal normal bold 31px/38px Helvetica Neue;
+    color: #FFFFFF;
+    padding: 50px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************************************************************/
+
 
 .area-persona {
     border-top: 1px solid white;
@@ -31,30 +46,6 @@
     top: 120px;
     width: 231px;
     height: 90px;
-}
-
-.imagen-persona {
-    position: absolute;
-    top: 147px;
-    left: 58px;
-    width: 40px;
-    height: 40px;
-    background: transparent url('/assets/Elipse 5.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-
-
-.nombre-persona {
-    position: absolute;
-    top: 157px;
-    left: 106px;
-    width: 139px;
-    height: 16px;
-    text-align: left;
-    font: normal normal normal 14px/16px Arial;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
 }
 
 .label-informaciones {

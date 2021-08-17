@@ -13,8 +13,4 @@ export class PortadaComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  ingresar() {
-    this.router.navigate(['bienvenida']);
-  }
-
 }
