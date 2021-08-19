@@ -1,25 +1,30 @@
-<app-navegacion class="area-navegacion"></app-navegacion>
+<app-menu-lateral class="area-menu-lateral"></app-menu-lateral>
 
-<div class="area-contenido">
-    <app-navbar class="area-navbar"></app-navbar>
+<div class="menu-superior-y-contenido-flex">
+    <app-menu-superior class="menu-superior"></app-menu-superior>
 
     <div class="cabecera-reporte">
-        <img class="icono-reporte" src="/assets/Grupo 499.png">
-        <h1 class="label-reportes">Reportes</h1>
+        <img class="icono-reporte" src="/assets/Grupo 499.png" alt="Reportes beca java 2020">
+        <h2 class="titulo-reportes">Reportes</h2>
     </div>
 
-    <div class="contenedor-categorias">
-        <h1 class="titulo-categoria">Categorías</h1>
-        <div class="contenedor-listado-categorias">
-            <ng-container *ngFor="let categoria of categorias; let i = index">
-                <img class="icono" src="{{'/assets/' + categoria.getIconoMostrado() + '.png'}}" 
-                (click) = "seleccionarCategoria(categoria)">
-            </ng-container>
+    <div class="contenedor-categoria-y-detalle-flex">
+        <div class="contenedor-categorias">
+            <h2 class="titulo-categoria">Categorías</h2>
+
+            <ul class="menu-categorias-flex">
+                <ng-container *ngFor="let categoria of categorias; let i = index">
+                    <li class="menu-item">
+                        <img class="icono-reportes" src="{{'/assets/' + categoria.getIconoMostrado() }}" (click) = "seleccionarCategoria(categoria)">
+                        <p>{{ categoria.getNombre() }}</p>
+                    </li>
+                </ng-container>
+            </ul>
         </div>
-    </div>
-
-    <div class="contenedor-categoria-detalle">
-        <h1 class="titulo-categoria-detalle">{{ tituloDetalleMostrado}}</h1>
+    
+        <div class="contenedor-detalle">
+            <h1 class="titulo-categoria-detalle">{{ tituloDetalleMostrado}}</h1>
+        </div>
     </div>
 
 </div>

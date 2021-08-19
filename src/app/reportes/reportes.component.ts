@@ -19,9 +19,9 @@ export class ReportesComponent implements OnInit {
           {
             id: i,
             nombre: "categoria  " + i, 
-            icono: "folder" + i, 
-            iconoSeleccionado: "folder" + "-seleccionado",
-            iconoMostrado: "folder" + i, 
+            icono: "icono-carpeta-reporte.png", 
+            iconoSeleccionado: "icono-carpeta-reporte-seleccionado.png",
+            iconoMostrado: "icono-carpeta-reporte.png", 
         } );
       this.categorias.push(categoria);
     }

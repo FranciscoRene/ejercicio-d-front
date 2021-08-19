@@ -1,0 +1,26 @@
+.imagen-hamburguesa {
+    padding: 9px;
+    width: 31px;
+    height: 31px;
+}
+
+.contenedor-configuracion-flex {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.imagen-configuracion {
+    justify-items: flex-end;
+    width: 15px;
+    height: 15px;
+    padding: 15px 3px;
+}
+
+.lenguaje {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    font: normal normal normal 12px/14px Arial;
+    color: #FFFFFF;
+}

@@ -1,0 +1,112 @@
+.contenedor-menu-lateral-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 768px;
+    background: #1B0088 0% 0% no-repeat padding-box;
+    border-bottom: 2px solid #ED1650;
+}
+
+.contenedor-persona-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid #EEEEEE;
+    border-bottom: 2px solid #EEEEEE;
+}
+
+.imagen-persona {
+    width: 40px;
+    height: 40px;
+}
+
+.nombre-persona {
+    font: normal normal normal 14px/16px Arial;
+    color: #FFFFFF;
+    line-height: 40px;
+    padding: 15px;
+}
+
+.menu-informaciones-flex {
+    display: flex;
+    align-self: center;
+    max-width: 250px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.menu-informaciones-flex li{
+    width: 100%;
+}
+
+.menu-item-reportes-flex {
+    display: flex;
+    width: 100%;
+}
+
+.menu-item-informaciones{
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.menu-item-informaciones {
+    width: 100%;
+    border-bottom: 2px solid #ED1650;
+}
+
+.menu-item-informaciones a{ 
+    font: normal normal normal 16px/23px Arial Black;
+    color: #FFFFFF;
+    cursor: none;
+}
+
+.item-reporte-flex {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid #00AFA9;
+    margin-left: 20px;
+    box-sizing:border-box;
+    cursor: pointer;
+}
+
+.item-reporte-flex a{
+    width: 100%;
+    font: normal normal normal 14px/19px Arial Black;
+    color: #FFFFFF;
+    line-height: 24px;
+    padding: 15px;
+}
+
+.icono-menu-reporte {
+    width: 17px;
+    height: 24px;
+}
+
+.cerrar-sesion-flex {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin-top:auto;
+}
+
+.cerrar-sesion-flex a {
+    line-height: 15px;
+    font: normal normal normal 14px/16px Arial;
+    color: #FFFFFF;
+    padding: 15px 7px 15px 15px;
+}
+
+.cerrar-sesion-flex img {
+    width: 16px;
+    height: 16px;
+    line-height: 1px;
+}
+
+/*.icono-cerrar-sesion /assets/Icon material-exit-to-app.png*/
+

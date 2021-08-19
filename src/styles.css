@@ -3,6 +3,51 @@ body {
     margin: 0px;
 }
 
-h1 {
+h1, h2, h3, p {
     margin: 0;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font: normal normal bold 31px/38px Arial;
+    color: #FFFFFF;
+    padding: 50px 30px;
+}
+
+.area-menu-lateral {
+    width: 20%;
+    height: 768px;
+    background-color: rgb(123, 127, 133);
+    float: left;
+}
+
+.menu-superior-y-contenido-flex {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 768px;
+    background-color: #ededed;
+}
+
+.menu-superior {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 48px;
+    background-color: #0C013B;
 }
