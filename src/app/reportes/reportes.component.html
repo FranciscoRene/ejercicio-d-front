@@ -22,8 +22,54 @@
             </ul>
         </div>
     
-        <div class="contenedor-detalle">
-            <h1 class="titulo-categoria-detalle">{{ tituloDetalleMostrado}}</h1>
+        <div class="contenedor-detalle-flex">
+            <h2 class="titulo-categoria-detalle">Categoría 1</h2>
+            <div class="contenedor-tipo-reporte-flex">
+                <form action="">
+                    <label for="reporte-id">Selección de reporte</label>
+                    <select name="reporte" id="reporte-id">
+                        <option value="reporte1">Seleccione un reporte<span><img src="" alt=""></span></option>
+                    </select>
+
+                    <button type="submit">acceder</button>
+                </form>
+            </div>
+
+            <div class="contenedor-informacion-requerida-flex">
+                <h2 class="titulo-informacion-requerida">Información requerida</h2>
+                <form action="">
+                    <div class="contenedor-form-info-requerida-flex">
+                        <label for="periodo-1-id">Periodo</label>
+                        <select name="periodo" id="periodo-1-id">
+                            <option value="valor-periodo-1">Seleccione periodo<span><img src="" alt=""></span></option>
+                        </select>
+
+                        <div class="contenedor-parametros">
+                            <label for="parametro-1">Parámetro 1</label>
+                            <select name="parametro-1">
+                                <option value="valor-parametro-1">Ingrese parámetro 1<span><img src="" alt=""></span></option>
+                            </select>
+    
+                            <label for="parametro-2">Parámetro 2</label>
+                            <select name="parametro-2">
+                                <option value="valor-parametro-2">Ingrese parámetro 2<span><img src="" alt=""></span></option>
+                            </select>
+                        </div>
+                        
+                        <label class="seleccion-archivo" for="archivo-id"><p>Ingreso de archivo</p></label>
+                        <input type="file" name="archivo" id="archivo-id">
+
+                        <div class="contenedor-botones">
+                            <button>Planificar Reporte</button>
+                            <button type="submit">Ejecutar Reporte</button>
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+            
+            <!--<h2 class="titulo-categoria-detalle">{{ tituloDetalleMostrado}}</h2>-->
+
         </div>
     </div>
 
