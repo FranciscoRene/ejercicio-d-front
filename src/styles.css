@@ -39,7 +39,7 @@ h1 {
 .menu-superior-y-contenido-flex {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 80%;
     height: 768px;
     background-color: #ededed;
 }
